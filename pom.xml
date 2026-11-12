@@ -38,6 +38,13 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Banco em memória para executar e testar sem infraestrutura externa -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
         <!-- Swagger / OpenAPI 3 para Spring Boot 3 (Gera a documentação automática da API) -->
         <dependency>
             <groupId>org.springdoc</groupId>
